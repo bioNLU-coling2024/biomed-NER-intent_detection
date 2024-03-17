@@ -1,7 +1,7 @@
 ## Translation Validation
 
 ### Annotator Details
-- We collaborated with 2 Chinese Language Experts from ALA Language Center Company to validate the effectivity of the translations. Sufficient money was given to both the annotators (USD 0.04 per example per expert) for each example, which was sufficient considering the country of residence of the experts. 
+- We collaborated with two Chinese Language Experts from ALA Language Center Company to validate the effectivity of the translations. Sufficient money was given to both the annotators (USD 0.04 per example per expert) for each example, which was sufficient considering the country of residence of the experts. 
 - Both the annotators are from Asian countries with proficiency in English and Chinese Languages along with sufficient medical knowledge. They have previously contributed to similar research studies published at reputed Conferences and Journals.
 
 ### Annotation Process and Instructions
