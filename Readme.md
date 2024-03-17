@@ -71,7 +71,7 @@ PubMedBERT fine-tuned on BC5CDR dataset [(Hugging Face Demo Link)](https://huggi
 
 ## How to run the NER Experiments
 
-- Preprocess the uploaded the dataset files to break the text examples considering the max token length. Change the "model" variable in run_experiments.sh and use the shell script to evaluate the model on all biomedical datasets:
+- Preprocess the uploaded the dataset files to break the text examples considering the max token length. Change the variable "model" in run_experiments.sh and use the shell script to evaluate the model on all biomedical datasets:
 
     ``` 
     bash run_ner_experiments.sh
