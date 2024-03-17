@@ -1,6 +1,6 @@
 #!/bin/bash
 #MODELS="roberta pubmedbert bert"
-MODEL="roberta"
+MODEL="bert"
 DATASET="mergedNER"
 DATASET_PATH="./ID_dataset/"
 OUTPUT_PATH="./outputs/"
