@@ -18,7 +18,7 @@ from transformers import (
     logging,
 )
 
-set_seed(41)
+set_seed(42)
 
 class dataset(Dataset):
     def __init__(self, encodings, labels):
