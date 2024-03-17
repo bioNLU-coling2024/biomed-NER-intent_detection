@@ -1,5 +1,5 @@
 '''
-This code was adopted from (https://github.com/melanietosik/maxent-ner-tagger)
+This code was adopted from https://github.com/melanietosik/maxent-ner-tagger
 '''
 
 import pickle
