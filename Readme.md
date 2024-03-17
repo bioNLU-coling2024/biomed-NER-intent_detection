@@ -16,7 +16,7 @@ graph TD;
 
 PubMedBERT fine-tuned on BC5CDR dataset [(Hugging Face Demo Link)](https://huggingface.co/psgrghvuo/pubmedbert_bc5cdr) and RoBERTa fine-tuned on translated KUAKE-QIC dataset [(Hugging Face Demo Link)](https://huggingface.co/psgrghvuo/roberta-base-qic) are shared for demo.
 
-![Poster Image](https://github.com/psgrghvuo/nlu-biomedical/blob/main/huggingface_demo.png)
+![Poster Image](https://github.com/psgrghvuo/nlu-biomedical/blob/main/images/huggingface_demo.png)
 
 ## Repository Organization
 
@@ -175,9 +175,9 @@ Where, all_intent_classes is the list of all intents in the dataset. We include 
 Performance variation with training data size on CNN and LSTM models along with CRF prediction layer is shown below. Unlike pre-trained transformer models, CNN and LSTM models fail to perform well when less training data is available. Ablation curves with BINDER-PubMedBERT and PubMedBERT are inluded in the paper.
 
 ### CNN + CRF
-![CNN+CRF](data_ablation_cnn.png)
+![CNN+CRF](images/data_ablation_cnn.png)
 ### LSTM + CRF
-![LSTM+CRF](data_ablation_lstm.png)
+![LSTM+CRF](images/data_ablation_lstm.png)
 
 
 ## Intent Detection Translation validation
