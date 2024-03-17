@@ -1,6 +1,6 @@
 #!/bin/bash
 #MODEL="cnn lstm logreg xgb biobert pubmedbert biomedroberta bert roberta"
-MODEL="cnn"
+MODEL="bert"
 DATASET="ncbi jnlpba bc5cdr anatem DDI"
 DATASET_PATH="./NER_dataset/"
 OUTPUT_PATH="./outputs/"
