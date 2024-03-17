@@ -13,7 +13,7 @@ with O
 bromo O
 - O
 2 O
-' O
+' O 
 - O
 deoxyuridine O
 ( O
