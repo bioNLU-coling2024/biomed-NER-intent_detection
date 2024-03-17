@@ -17,7 +17,7 @@ from transformers import (
     logging,
 )
 
-set_seed(42)
+set_seed(41)
 
 FILL_TOKEN = '-100'
 
