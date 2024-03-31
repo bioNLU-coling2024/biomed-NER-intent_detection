@@ -1,6 +1,9 @@
 # Intent Detection and Entity Extraction from BioMedical Literature
 
-This is the official repository of the paper **Intent Detection and Entity Extraction from BioMedical Literature**. 
+This is the official repository of the paper **Intent Detection and Entity Extraction from BioMedical Literature** accepted at CL4Health workshop at LREC-COLING 2024.
+
+Authors: Ankan Mullick*, Mukur Gupta* and Pawan Goyal\
+(\*Authors contributed equally)
 
 ```mermaid
 graph TD;
