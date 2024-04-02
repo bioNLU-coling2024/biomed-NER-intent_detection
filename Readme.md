@@ -3,7 +3,7 @@
 This is the official repository of the paper **Intent Detection and Entity Extraction from BioMedical Literature** accepted at CL4Health workshop at LREC-COLING 2024.
 
 Authors: Ankan Mullick*, Mukur Gupta* and Pawan Goyal\
-(\*Authors contributed equally)
+(\*authors contributed equally)
 
 ```mermaid
 graph TD;
@@ -14,6 +14,9 @@ graph TD;
     C --> G[RoBERTa];
     C --> H[PubMedBERT]
 ```
+
+**Abstract:** 
+Biomedical queries have become increasingly prevalent in web searches, reflecting the growing interest in accessing biomedical literature. Despite recent research on large-language models (LLMs) motivated by endeavors to attain gen- eralized intelligence, their efficacy in replacing task and domain-specific natural language understanding approaches remains questionable. In this paper, we address this question by conducting a comprehensive empirical evaluation of intent detection and named entity recognition (NER) tasks from biomedical text. We show that Supervised Fine Tuned approaches are still relevant and more effective than general-purpose LLMs. Biomedical transformer models such as PubMedBERT can surpass ChatGPT on NER task with only 5 supervised examples.
 
 ## Model Demo
 
@@ -187,6 +190,9 @@ Performance variation with training data size on CNN and LSTM models along with 
 
 - Please refer to [CMID paper](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1122-3) and [CBLUE repository](https://github.com/CBLUEbenchmark/CBLUE) for original datasets in Chinese. Datasets are translated to english using Google Translate API. We take a random sample of 400 examplese from CMID and 400 random examples from Dev set of KUAKE-QIC dataset for manual validaiton by two Chinese experts. Apart from translation validation, we also provide correct manual translations in some cases. 
 - More details on the process of translation validation are highlighted on [Chinese_ID_validation page](https://github.com/psgrghvuo/nlu-biomedical/tree/main/Chinese_ID_validation).
+
+## Got Questions?
+Get in touch mukur.gupta@columbia.edu
 
 ## References
 * [Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing](https://arxiv.org/pdf/2007.15779)
